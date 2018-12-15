@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                String url = "https://i.ndtvimg.com/i/2017-12/virat-kohli-and-anushka-sharma-instagram_806x605_61513058442.jpg";
+                String url = "https://scontent.fpnq8-1.fna.fbcdn.net/v/t1.0-9/28278948_1599915910097582_8523401707870952260_n.jpg?_nc_cat=103&_nc_ht=scontent.fpnq8-1.fna&oh=fe22db225b3c017a2959e921fc943080&oe=5CA4CC38";
                 DownloadImageTask downloadImageTask = new DownloadImageTask();
                 downloadImageTask.execute(url);
             }
