@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         button1 = (Button)findViewById(R.id.b1);
-        button2 = (Button)findViewById(R.id.b2);
+        button2 = (Button)findViewById(R.id.buttonNextId);
         imageView = (ImageView)findViewById(R.id.i1);
 
         button1.setOnClickListener(new View.OnClickListener() {

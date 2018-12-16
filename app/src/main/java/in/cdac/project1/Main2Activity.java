@@ -57,7 +57,7 @@ public class Main2Activity extends AppCompatActivity {
             @Override
             public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
 
-                Log.d("OnResponse","Response from Server....."+response);
+                Log.d("OnResponse","Response from Server..."+response);
                 if (response.isSuccessful()) {
                     if (response.body() != null) {
                         Bitmap bitmap = BitmapFactory.decodeStream(response.body().byteStream());
